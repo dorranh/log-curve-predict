@@ -10,7 +10,7 @@ import pandas as pd
 
 def read_all_synthetic_curves(curve_dir, null_value="-999.00000000"):
     """Quick and dirty method for parsing the synthetic data files created for the hackathon"""
-    data_files = fnmatch.filter(os.listdir(curve_dir), "*")
+    data_files = fnmatch.filter(os.listdir(curve_dir), "*\/\d+$")
     curves = {}
     for data_file in data_files:
         data_file_path = os.path.join(curve_dir, data_file)
@@ -29,3 +29,4 @@ def read_all_synthetic_curves(curve_dir, null_value="-999.00000000"):
         else:
             curves[well_num][curve] = df[curve]
     return curves
+
