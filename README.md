@@ -10,7 +10,7 @@ WORFLOW
   
   
 Conclusion:
-
+Our model produces comparable predictions with rock physics based estimations (Marmousi2 Model, 2004). Our focus on estimating missing Vs logs; however, this approach can be extended to estimating any other kinds of missing logs using different input log types.
 
 Wayforward:
 1) Real industry data training required
