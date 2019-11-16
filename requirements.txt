@@ -3,5 +3,6 @@ scipy
 pandas
 matplotlib
 seaborn
-umaplearn
-scikitlearn
+scikit-learn
+bqplot
+ipywidgets
