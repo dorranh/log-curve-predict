@@ -37,7 +37,7 @@ https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html
 
 #### Data
 
-A csv file of synthetic well log data, all_synthetic_well_logs.zip, is provided via git-lfs. You'll need to download (if it wasn't pulled when you cloned the repo) and unzip this file to run the example notebooks.
+A csv file of synthetic well log data, [all_synthetic_well_logs.zip](all_synthetic_well_logs.zip), is provided via git-lfs. You'll need to download (if it wasn't pulled when you cloned the repo) and unzip this file to run the example notebooks.
 
 
 ### Contributors:
