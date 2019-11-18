@@ -7,10 +7,10 @@
 __Topic:__ Predicting missing well log curves
 
 __Our Workflow:__
-1.) Extract synthetic well log data from reference model (RHOB, DTCO, DTSM)
-2.) Clean input dataset 
-3.) Train a variety of models using pymc3 and sklearn
-4.) Evaluate and compare model accuracy/performance
+1) Extract synthetic well log data from reference model (RHOB, DTCO, DTSM)
+2) Clean input dataset 
+3) Train a variety of models using pymc3 and sklearn
+4) Evaluate and compare model accuracy/performance
   
 __Conclusion:__
 Our model produces comparable predictions with rock physics based estimations (Marmousi2 Model, 2004). Our focus on estimating missing Vs logs; however, this approach can be extended to estimating any other kinds of missing logs using different input log types.
