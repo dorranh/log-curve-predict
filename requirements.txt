@@ -6,3 +6,4 @@ seaborn
 scikit-learn
 bqplot
 ipywidgets
+pymc3
