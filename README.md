@@ -4,7 +4,7 @@
 
 ### Summary
 
-__Topic:__ Predicting missing log data
+__Topic:__ Predicting missing well log curves
 
 __Our Workflow:__
 1.) Extract synthetic well log data from reference model (RHOB, DTCO, DTSM)
